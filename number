@@ -1,0 +1,9 @@
+#!/bin/bash
+#: Title        : number
+#: Date         : 2021-08-19
+#: Author       : "Oliver Santos Code" <@oliversantoscode>
+#: Version      : 1.0
+#: Description  : print Number decimal
+#: Options      : None
+
+printf "%d\n" 2021 19 45 56 0xff 011
