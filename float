@@ -3,7 +3,8 @@
 #: Date         : 2021-08-15
 #: Author       : "Oliver Santos Code" <@oliversantoscode>
 #: Version      : 1.0
-#: Description  : print Number float
+#: Description  : print Number float and float exponential
 #: Options      : None
 
 printf "%f\n" 1,2345678 5 34 56 12,34
+printf "%e\n" 1,2345678 5 34 56 12,34 
