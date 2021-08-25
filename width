@@ -1,0 +1,9 @@
+#!/bin/bash
+#: Title        : width
+#: Date         : 2021-08-25
+#: Author       : "Oliver Santos Code" <@oliversantoscode>
+#: Version      : 1.0
+#: Description  : print width
+#: Options      : None
+
+printf "%15s %-15s:\n" first second third fourth fifth sixth
