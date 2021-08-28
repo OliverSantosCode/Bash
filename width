@@ -3,8 +3,9 @@
 #: Date         : 2021-08-25
 #: Author       : "Oliver Santos Code" <@oliversantoscode>
 #: Version      : 1.0
-#: Description  : print width and width zeros
+#: Description  : print width and width zeros and maximum width
 #: Options      : None
 
 printf "%15s %-15s:\n" first second third fourth fifth sixth
 printf "%05d\n" 1 11 111 1111 123 234
+printf "%10.4s %10.2f\n" Oliver 2 Jonhy 5 Jackson 6.799 Walter 2.9
