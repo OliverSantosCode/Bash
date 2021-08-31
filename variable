@@ -1,0 +1,10 @@
+#!/bin/bash
+#: Title        : variable
+#: Date         : 2021-08-31
+#: Author       : "Oliver Santos Code" <@oliversantoscode>
+#: Version      : 1.0
+#: Description  : print variable
+#: Options      : None
+
+printf -v num4 "%04d" 4
+printf "%s\n" "$num4"
