@@ -3,7 +3,8 @@
 #: Date         : 2021-09-07
 #: Author       : "Oliver Santos Code"
 #: Version      : 1.0
-#: Description  : create FILENAME
+#: Description  : create FILENAME and FILE and ERROR
 #: Options      : None
 
 printf "Hello" > FILENAME
+printf "%s\n%v\n" OK! Oops...ERROR! > FILE 2> ERRORFILE
