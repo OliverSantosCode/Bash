@@ -8,3 +8,4 @@
 
 printf "Hello" > FILENAME
 printf "%s\n%v\n" OK! Oops...ERROR! > FILE 2> ERRORFILE
+printf "%s\n%v\n" OK? Oops...ERROR! > FILE 2>&1
