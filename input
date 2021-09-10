@@ -1,0 +1,10 @@
+#!/bin/bash
+#: Title        : input
+#: Date         : 2021-09-10
+#: Author       : "OliverSantosCode" <@oliversantoscode>
+#: Version      : 1.0
+#: Description  : print input var
+#: Options      : None
+
+read a b c d
+echo $a $b $c $d
