@@ -8,3 +8,5 @@
 
 read a b c d
 echo $a $b $c $d
+read var < FILENAME
+echo $var
