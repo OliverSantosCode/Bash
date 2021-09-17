@@ -1,0 +1,11 @@
+#!/bin/bash
+#: Title        : date
+#: Date         : 2021-09-17
+#: Author       : "Oliver Santos Code" <@oliversantoscode>
+#: Version      : 1.0
+#: Description  : echo $date
+#: Options      : None
+
+date=`date`
+date=$(date)
+echo $date
