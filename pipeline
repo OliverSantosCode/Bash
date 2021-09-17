@@ -7,3 +7,4 @@
 #: Options      : None
 
 printf "%s\n" "$RANDOM" "$RANDOM" "$RANDOM" "$RANDOM" | tee FILENAME
+cat FILENAME
