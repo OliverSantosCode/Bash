@@ -1,0 +1,10 @@
+#!/bin/bash
+#: Title        : erro
+#: Date         : 2021-09-18
+#: Author       : "Oliver Santos Code" <@oliversantoscode>
+#: Version      : 1.0
+#: Description  : echo error 1
+#: Options      : None
+
+printf "%v\n"
+echo $?
