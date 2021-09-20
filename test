@@ -1,0 +1,10 @@
+#!/bin/bash
+#: Title        : test
+#: Date         : 2021-09-20
+#: Author       : "Oliver Santos Code" <@oliversantoscode>
+#: Version      : 1.0
+#: Description  : echo -eq 1
+#: Options      : None
+
+test 1 -eq 1
+echo $?
