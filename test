@@ -3,10 +3,14 @@
 #: Date         : 2021-09-20
 #: Author       : "Oliver Santos Code" <@oliversantoscode>
 #: Version      : 1.0
-#: Description  : echo -eq 1 [ 2 -ne 1 ]
+#: Description  : echo -eq 1 [ 2 -ne 1 ] string
 #: Options      : None
 
 test 1 -eq 1
 echo $?
 [2 -ne 1 ]
+echo $?
+a=a 
+b=b
+test "$a" \> "$b"
 echo $?
