@@ -14,3 +14,5 @@ a=a
 b=b
 test "$a" \> "$b"
 echo $?
+test "$a" \< "$b"
+echo $?
