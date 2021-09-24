@@ -16,3 +16,6 @@ test "$a" \> "$b"
 echo $?
 test "$a" \< "$b"
 echo $?
+string=whatever
+[[ $string =~ h[aeiou] ]]
+echo $?
