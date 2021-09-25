@@ -1,0 +1,14 @@
+#!/bin/bash
+#: Title        : name
+#: Date         : 2021-09-25
+#: Author       : "Oliver Santos Code" <@oliversantoscode>
+#: Version      : 1.0
+#: Description  : if name exit 1 then echo "No name entered"
+#: Options      : None
+
+read name 
+if [ -z "$name" ]
+    then 
+        echo "No name entered" >&2
+        exit 1 ## Set a failed return code
+fi
