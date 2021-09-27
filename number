@@ -3,7 +3,16 @@
 #: Date         : 2021-08-19
 #: Author       : "Oliver Santos Code" <@oliversantoscode>
 #: Version      : 1.0
-#: Description  : print Number decimal
+#: Description  : print Number decimal and no greater than 10
 #: Options      : None
 
 printf "%d\n" 2021 19 45 56 0xff 011
+printf "Enter a number no greater than 10: "
+read number
+if [ "$number" -gt 10 ]
+then
+    printf "%d is too big\n" "$number" >&2
+    exit 1
+else
+    printf "You entered %d\n" "$number"
+fi
