@@ -1,0 +1,8 @@
+#!/bin/bash
+#: Title        : directory
+#: Date         : 2021-09-29
+#: Author       : "Oliver Santos Code" <@oliversantoscode>
+#: Version      : 1.0
+#: Description  : test && ||
+
+test -d "$directory" && cd "$directory"
