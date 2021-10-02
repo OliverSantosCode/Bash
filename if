@@ -1,0 +1,11 @@
+#!/bin/bash
+#: Title        : if
+#: Date         : 2021-10-02
+#: Author       : "Oliver Santos Code" <@oliversantoscode>
+#: Version      : 1.0
+#: Description  : if
+
+if [ -d "$HOME" ] && "$HOME"
+then
+    echo "$PWD"
+fi
