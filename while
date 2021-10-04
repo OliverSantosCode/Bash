@@ -1,0 +1,13 @@
+#!/bin/bash
+#: Title        : while
+#: Date         : 2021-10-04
+#: Author       : "Oliver Santos Code" <@oliversantoscode>
+#: Version      : 1.0
+#: Description  : echo 1 to 10
+
+n=1
+while [ $n -le 10]
+do
+    echo "$n"
+    n=$(( $n + 1))
+done
