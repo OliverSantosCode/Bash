@@ -1,0 +1,13 @@
+#!/bin/bash
+#: Title        : until
+#: Date         : 2021-10-05
+#: Author       : "Oliver Santos Code" <@oliversantoscode>
+#: Version      : 1.0
+#: Description  : 1 to 10
+
+n=1
+until [ $n -gt 10 ]
+do
+    echo "$n"
+    n=$(( $n + 1 ))
+done
