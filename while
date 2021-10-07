@@ -3,11 +3,17 @@
 #: Date         : 2021-10-04
 #: Author       : "Oliver Santos Code" <@oliversantoscode>
 #: Version      : 1.0
-#: Description  : echo 1 to 10
+#: Description  : echo 1 to 10 && break
 
 n=1
 while [ $n -le 10]
 do
     echo "$n"
     n=$(( $n + 1))
+done
+
+while :
+do
+    read x
+    [ -z "$x" ] && break
 done
